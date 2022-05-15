@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "hello_mom",
+    "slug": "hello_mom",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "hello_mom"
+}
