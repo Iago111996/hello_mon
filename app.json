@@ -3,6 +3,7 @@
     "name": "hello_mom",
     "slug": "hello_mom",
     "version": "1.0.0",
+    "sdkVersion": "45.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
