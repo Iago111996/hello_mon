@@ -7,21 +7,36 @@ import {
   Platform,
 } from "react-native";
 
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../../routes/auth.routes";
+
 import {
   Container,
   SettingTop,
   MainScroll,
   WrapperForm,
   WrapperButton,
+  WrapperIconButton,
 } from "./styles";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
+import { IconButton } from "../../components/IconButton";
+
+interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
 export function Register() {
   const [step, setStep] = useState(1);
 
   const theme = useTheme();
+
+  const navigation = useNavigation<RoutesProps>();
+  const route = useRoute();
+
+  function handleGoBack() {
+    navigation.goBack();
+  }
 
   return (
     <KeyboardAvoidingView
@@ -34,6 +49,9 @@ export function Register() {
           showsVerticalScrollIndicator={false}
         >
           <Container>
+            <WrapperIconButton>
+              <IconButton onPress={handleGoBack} />
+            </WrapperIconButton>
             <SettingTop source={require("../../assets/bg_setting_top.png")} />
 
             {step === 1 && (

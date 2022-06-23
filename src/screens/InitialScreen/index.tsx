@@ -1,11 +1,29 @@
 import React from "react";
 import { useTheme } from "styled-components";
-import { Button } from "../../components/Button";
+
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../../routes/auth.routes";
 
 import { Container, SettingTop, WrapperButton } from "./styles";
 
+import { Button } from "../../components/Button";
+
+interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
+
 export function Initialscreen() {
   const theme = useTheme();
+
+  const navigation = useNavigation<RoutesProps>();
+  const route = useRoute();
+
+  function handleNewLogin() {
+    navigation.navigate("Login");
+  }
+
+  function handleNewRegister() {
+    navigation.navigate("Register");
+  }
 
   return (
     <Container>
@@ -16,9 +34,13 @@ export function Initialscreen() {
       />
 
       <WrapperButton>
-        <Button title="Logar" onPress={() => {}} color={theme.colors.secondary} />
+        <Button title="Login" onPress={() => handleNewLogin()} />
 
-        <Button title="Registre-se" onPress={() => {}}  />
+        <Button
+          title="Registre-se"
+          onPress={() => handleNewRegister()}
+          color={theme.colors.secondary}
+        />
       </WrapperButton>
     </Container>
   );

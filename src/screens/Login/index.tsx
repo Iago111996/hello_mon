@@ -6,18 +6,32 @@ import {
   Platform,
 } from "react-native";
 
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../../routes/auth.routes";
+
 import {
   Container,
   SettingTop,
   MainScroll,
   WrapperForm,
   WrapperButton,
+  WrapperIconButton,
 } from "./styles";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
+import { IconButton } from "../../components/IconButton";
+
+interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
 export function Login() {
+  const navigation = useNavigation<RoutesProps>();
+  const route = useRoute();
+
+  function handleGoBack() {
+    navigation.goBack();
+  }
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -25,6 +39,9 @@ export function Login() {
     >
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <MainScroll showsVerticalScrollIndicator={false}>
+          <WrapperIconButton>
+            <IconButton onPress={handleGoBack} />
+          </WrapperIconButton>
           <Container>
             <SettingTop source={require("../../assets/bg_setting_top.png")} />
 
@@ -34,7 +51,7 @@ export function Login() {
               <Input label="Senha:" placeholder="Digite sua senha" />
 
               <WrapperButton>
-                <Button title="Registrar" onPress={() => {}} />
+                <Button title="Logar" onPress={() => {}} />
               </WrapperButton>
             </WrapperForm>
           </Container>
