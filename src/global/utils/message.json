@@ -1,0 +1,494 @@
+[
+  {
+    "id": 0,
+    "message": [
+      "1. Hoje seu corpinho está se preparando para que eu possa chegar mamãe!",
+      "2. É com a menstruação que todo esse ciclo se inicia mamãe. Cuide bem da sua saúde que em breve estarei com você!",
+      "3. Nesse momento, é importante que você visite um médico para avaliar suas necessidades com relação à saúde!",
+      "4. Nesse momento, é importante que você visite um médico para avaliar suas necessidades com relação à saúde!Futura mamãe, uma alimentação saudável nessa fase é indispensável para aumentar as probabilidades de sua gestação dar certo!",
+      "5. Está ansiosa para iniciar essa fase? Fica tranquila mamãe, estamos aqui para te ajudar!",
+      "6. Apesar de você parecer normal, seu corpo esta produzindo a todo vapor um hormônio chamado FSH (Hormônio folículo estimulante).",
+      "7. Sempre anote o dia em que seu fluxo menstrual se iniciou para no futuro sabermos a data provável do parto!"
+    ]
+  },
+  {
+    "id": 1,
+    "message": [
+      "1. Futura mamãe, o seu ovulo dura em média até 24 horas, é fundamental saber a hora certa para que sua gravidez se concretize!",
+      "2. Estamos perto da ovulação. Fique atenta mamãe, para não perder este momento tão importante para o sucesso da gravidez!",
+      "3. Sinal da ovulação para se observar: Elevação da temperatura corporal e aumento do muco cervical!!!",
+      "4. Dica para o período próximo a ovulação: Sexo diário pode aumentar a probabilidade de engravidar. Foi visto que a frequência ideal é de 2 em 2 dias.",
+      "5. A suplementação com ácido fólico reduz as chances de haver problemas com o bebe no futuro. Visite um médico!",
+      "6. É imprescindível que a futura mamãe pare com o álcool, fumo e drogas ilícitas para que a gestação ocorra tudo bem.",
+      "7. Já iniciou a caminhada, em breve estarei com você mamãe!"
+    ]
+  },
+  {
+    "id": 2,
+    "message": [
+      "1. FINALMENTE EU EXISTO! Depois que o espermatozoide alcança o óvulo ocorre a fecundação, surgindo uma célula chamada de “zigoto”.",
+      "2. Talvez você não saiba, mas já está grávida! MUITA ALEGRIAAA UHUUUUU!",
+      "3. Mamãe, nesse momento está ocorrendo em ritmo acelerado o aumento do número de células do seu futuro bebe!",
+      "4. Todo o trabalho desses últimos dias foi finalmente recompensado!! Ocorreu a fecundação uhuuuu!!",
+      "5. Lembre-se, o parceiro também está “gravido”. É importante que o casal não consuma álcool, cigarro e drogas ilícitas. Converse com o seu médico!",
+      "6. Cuidado com as dietas rigorosas, esse período é importante que a saúde da mamãe esteja ótima. Atividades físicas leves e moderadas podem ser feitas, apenas é preciso ter cuidado com atividades físicas que exigem bastante do praticante.",
+      "7. Alguns sintomas iniciais podem surgir, tais como seios doloridos, cansaço e urinar mais vezes que o normal."
+    ]
+  },
+  {
+    "id": 3,
+    "message": [
+      "1. “Próxima parada: úteroooo.” O seu futuro bebezinho acaba de se fixar no útero. A partir de agora ele passará por uma série de divisões celulares para a formação do feto e das estruturas de suporte, a placenta por exemplo.",
+      "2. Está ansiosa? Tecnicamente você só está grávida há 2 semanas, porém oficialmente você é uma gravidinha de 4 semanas. Isso ocorre porque incluímos o último período menstrual na conta.",
+      "3. Você poderá sentir uma colicazinha, sensibilidade mamaria, sendo bem semelhante ao período pré- menstrual. Seu coraçãozinho também poderá acelerar um pouco, lembre-se que agora ele precisa bombear um pouco mais de sangue. Você sabia que durante a gestação o seu volume sanguíneo aumenta em média de 40-50%? Muito legal!",
+      "4. Procure atividades para relaxar mamãe, essa é uma fase que você pode se sentir mais cansada... E sabe o seu parceiro? Pois é, você pode também achar ele mais chato do que nunca rsrsrs.",
+      "5. “Dr. Matheus, posso realizar o teste de farmácia?” Pode sim, mas caso dê negativo, NÃO ENTRE EM PÂNICO. Caso dê negativo, mas sua menstruação ainda não veio, repita o teste alguns dias depois.",
+      "6. “Dr.Matheus, é possível saber se terei gêmeos?” Precocemente é difícil, mas gestações de gêmeos costumam aumentar mais que o normal o nível de um hormônio chamado Beta-hCG.",
+      "7. Quando receber o teste positivo, informa pra gente para prepararmos uma festa UHUUUUUUU! Por enquanto, descanse bastante, tome os suplementos pré-natais prescritos pelo seu médico e continue com uma alimentação saudável. AAAH, não se pode esquecer de que atividades físicas leves são muito benéficas nesse período."
+    ]
+  },
+  {
+    "id": 4,
+    "message": [
+      "1. A placenta começou a se desenvolver. Você sabe o que é placenta? A placenta é um órgão que tem como objetivo principal promover a condições ideais para o desenvolvimento do feto. É uma ligação íntima entre mamãe e feto, é a primeira casinha do seu bebe.",
+      "2. Essa fase é de fundamental importância para mim. Mamãe é nessa semana que ocorre a formação do tubo neural, o qual é a estrutura que formará o meu cérebro e a minha medula espinhal. OBS: O ácido fólico é fundamental nessa fase, por isso recomendamos a suplementação dele.",
+      "3. UM CORAÇÃOZINHO COMEÇOU A SE FORMAR!! UHUUUU!! Já no finalzinho dessa semana ele começará a bater.O crescimento está a todo vapor.",
+      "4. Mamãe, eu sou bem pequenino, mas já estou aqui me desenvolvendo a todo vapor. Tenho aproximadamente 2- 3 mm.",
+      "5. IIIIIIIIIH mamãe, desculpa estar causando esses enjoos matinais hihi, jaja passa!!! Mamãe, é possível que com o desenvolvimento do útero, a bexiga seja pressionada e aumente as idas ao banheiro.",
+      "6. Pode ser complicado se alimentar com essas náuseas que não são restritas as matinais, mas é importante lembrar que as gestantes precisam se alimentar bem para manter a gravidez saudável.",
+      "7. É nessa hora que aparecem os tão famosos “desejos” por comidas que não são saudáveis, então fique atenta para não exagerar. É importante para o progresso da gestação manter níveis nutricionais adequados. Caso ainda não tenha ido ao médico, é fundamental não adiar mais."
+    ]
+  },
+  {
+    "id": 5,
+    "message": [
+      "1. Ainda não dá pra escutar, mas o meu coraçãozinho, ainda em formato de tubo contorcido e com apenas duas câmaras, já começou a funcionar. Estou me desenvolvendo rápido hein mamãe.",
+      "2. Mamãe, meus bracinhos e pernas começam a se formar, no momento são apenas pequenas elevações.",
+      "3. Futura mamãe, algumas transformações no seu corpo começam a ser perceptíveis. Uma delas é que os seus seios começam a aumentar um pouco de volume. O cansaço também começa a aumentar um pouco, portanto é fundamental que você descanse bem.",
+      "4. É comum que mulheres nessa fase tenham perdido um pouco de peso por conta dos enjoos, mas por via de regra é comum que haja um pequeno ganho de peso.",
+      "5. Dica para os enjoos matinais: coma porções menores emais frequentes. Isso jaja passa mamãe.",
+      "6. Mamãe fica atenta aos sintomas, é importante não adiar a ida ao médico para que tudo ocorra dentro da normalidade.",
+      "7. Vida saudáveeeeeeeel mamãe... Essa fase é comum alguns desejos por alimentos nada legais hehehe, então consuma com moderação."
+    ]
+  },
+  {
+    "id": 6,
+    "message": [
+      "1. Mamãe, estou meio cabeçudo no momento hehehe, porque meu cérebro está em crescimento acelerado em relação ao resto do meu corpinho.",
+      "2. As cartilagens dos meus braços e pernas começam a se desenvolver mamãe, jaja você poderá ver eles com ossos fortes e saudáveis.",
+      "3. DÚVIDAS MALUCAS: Como o que está dentro do útero não vaza? Com a gravidez, a Cervix é selada com uma espécie de tampão formado por muco bem denso, impossibilitando a saída de conteúdo do útero.",
+      "4. Caso o ganho de peso já esteja incomodando você mamãe, não se preocupe porque é normal. Procure se alimentar da forma mais saudável que puder. Após eu sair daqui, deixo você ir pra academia mamãe hihihi.",
+      "5. Mamãe agora seu sangue está circulando em mim. Meu pequeno coraçãozinho já consegue bombear uma pequena quantidade de sangue.",
+      "6. Algumas gestantes experimentam dores abdominais nesse período. Isso ocorre, em certas ocasiões, por conta do aumento de tamanho do útero. Procure um médico e fique atenta a todos os passos da sua gestação.",
+      "7. Duvida importante: Nesse momento da gravidez, posso fazer sexo? Nesse estágio, salvo situações bem específicas, a gestante pode sim praticar o ato sexual, entretanto, é importante o uso de preservativo. Procure um médico para informações mais detalhadas."
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. Mamãe aos pouquinhos já estou pegando a forma de um bebezinho. Meus braços e pernas continuam a se desenvolver a todo vapor, no momento, parecem pequenas nadadeiras hehe.(peixinho)",
+      "2. Dr.Matheus posso tomar antibiótico? Depende, alguns antibióticos não podem ser tomados por gestantes. Consulte o seu médico.",
+      "3. Futura mamãe está no tempo de você dar uma renovada no guarda roupa. Muito em breve as que você usa hoje estarão apertadinhas. Seu bebe cresce a todo vapor.",
+      "4. A atividade física leve e moderada nesta fase da gestação é super importante para o progresso da gestação. Vale lembrar que logo logo você carregará um peso a mais e isso exige mais do seu corpo. Informe ao seu médico.",
+      "5. Mamãe, meu rostinho está se formando, as pálpebras já estão quase completas. O olhinho já está em formação. Em breve você me conhecerá. Com quem eu me pareço mais? Papai ou Mamãe?",
+      "6. Você sabia que o seu bebe, apesar de ter o sistema respiratório em desenvolvimento, só irá utilizá-los por completo ao nascer? Isso mesmo, a placenta providencia todo o suporte de oxigênio necessário. Incrível!",
+      "7. Mamãe, por que você chora tanto? Alterações de humor são super comuns. Tem uma loucura hormonal acontecendo nesse exato momento. Fique tranquila mamãe, logo logo isso passará."
+    ]
+  },
+  {
+    "id": 8,
+    "message": [
+      "1. É menino ou menina? É nesse momento que os órgãos genitais serão formados, apesar de geneticamente já haver sexo definido. Mas acalma o coração ai mamãe, só a partir da 17° semana que o exame de ultrassom poderá revelar o sexo do seu bebe.",
+      "2. Mamãe, o crescimento dos seios nessa fase é perceptível. A sensibilidade neles ainda pode estar incomodando, mas em breve os níveis hormonais se equilibram e esse desconforto desaparece.",
+      "3. Mamãe, o meu rostinho continua a tomar forma. Jaja você verá meu rostinho fofinho.",
+      "4. Evite consumir álcool, fumo e drogas ilícitas. Isso pode acabar afetando o desenvolvimento de órgãos e sistemas do seu bebe. Também evite ficar próxima a pessoas que estão fumando, mesmo que passivamente, pode acarretar em problemas para sua gestação.",
+      "5. Como está a alimentação heim mamãe? Está comendo direitinho? Estou observando você querendo se encher de doces. Informe ao seu médico sobre esses desejos.",
+      "6. Mamãe, com todo esse cansaço, que tal tirar uma folguinha hoje? O dia está ótimo para um banho quente e relaxante. E depois, o que acha de um novo look para a gestante mais fofinha?",
+      "7. Mamãe, exercícios físicos leves podem ajudar significativamente na sua qualidade de vida durante a gestação. Lembre-se que em breve carregará um corpinho dentro de você. Consulte seu médico a respeito disso."
+    ]
+  },
+  {
+    "id": 9,
+    "message": [
+      "1. Mamãe, nesse momento se inicia a fase fetal. O seu bebe não é mais um embrião. Os rins, cérebro e fígado começam a funcionar. O coração logo em breve estará formado. O desenvolvimento ósseo está em pleno desenvolvimento.",
+      "2. Mamãe, você conhece seus direitos como gestante? Saiba que você tem licença maternidade de 120 dias, além de não poder ser demitida enquanto estiver grávida e até 5 meses após o parto, a não ser por “justa causa”.",
+      "3. É fundamental beber muita água, para se manter hidratada. Nesse momento, seu corpo e o do feto estão trabalhando arduamente em processos que demandam muitas substâncias que precisam chegar até o feto.",
+      "4. Mamãe está ansiosa para esbanjar a barriga de gravidinha? Elas costumam despontar entre a 12° e 14° semana.",
+      "5. As grávidas são seres de luz. O que acha de tirar uma fotinha da sua barriga todos os dias para no futuro acompanhar a evolução da sua gestação? Vai ficar um book lindoooo!!!",
+      "6. Mamãe, você sabia que o líquido amniótico tem o gosto do que você se alimenta? O gosto doce, salgado, azedo e amargo chegam ao feto por meio da circulação sanguínea, chegando pela placenta. Consulte um nutricionista acerca de uma alimentação saudável.",
+      "7. Capriche na sua saúde bucal. A gravidez não causa cáries ou outros problemas, mas pode deixar as gengivas mais sensíveis. Consulte um dentista."
+    ]
+  },
+  {
+    "id": 10,
+    "message": [
+      "1. Mamãe é fundamental que você compareça mensalmente às consultas de pré-natal e fazer todos os exames solicitados. Não esqueça de mencionar tudo sobre alimentação, exercícios, preocupações e sentimentos.",
+      "2. O seu bebe já faz pequenos movimentos, mas por conta da parede espessa do útero, não são percebidos por você ainda. Os movimentos ocorrem por conta que o cérebro do bebe está com um bom progresso de desenvolvimento.",
+      "3. Mamãe por conta do aumento do volume sanguíneo (normal para esta fase da gestação) é comum as gestantes experimentarem um aumento da temperatura corporal. É interessante o uso de roupas mais confortáveis. Para melhorar as noites de sono, recomendamos o uso de ventilador ou ar condicionado.",
+      "4. Mamãe, como está o seu cartão de vacina? Durante a gestação é fundamental acompanhar o calendário vacinal, para que não perca nenhum detalhe. Em alguns casos a não verificação do cartão pode acarretar em doenças para o bebe, por isso fique atenta e consulte o seu médico.",
+      "5. DICAS PARA UMA GESTAÇÃO SAUDÁVEL: Coma todos os dias legumes, verduras e frutas compradas recentemente. Esses alimentos são ricos em fibras, minerais e vitaminas que possuem quantidade adequada de calorias, sendo importante para a prevenção da obesidade e outros problemas que podem prejudicar o progresso da gestação.",
+      "6. Mamãe, sempre é bom lembrar que durante a gestação é fundamental que você não consuma álcool, fumo e drogas ilícitas para o andamento saudável da gestação. Caso encontre dificuldades, consulte o seu médico.",
+      "7. Mamãe você já marcou a próxima consulta pré- natal no calendário? As consultas são os momentos em que os profissionais da saúde têm para avaliar sua saúde e do seu bebe. É fundamental não perdê-las."
+    ]
+  },
+  {
+    "id": 11,
+    "message": [
+      "1. Mamãe, já estou produzindo células sanguíneas, nesse momento meu baço e fígado fazem essa função. Também já estou produzindo algumas enzimas digestivas. Em breve estarei nos seus braços.",
+      "2. Os sistemas muscular e nervoso estão construindo comunicações cada vez mais importantes. Traduzindo, eu já consigo me esticar, dar chutes e fazer caretas, mas ainda continuo sendo o bebe mais lindo, mamãe.",
+      "3. Como está sua alimentação eim mamãe? Estou observando aqui de dentro você beliscar constantemente doces e comidas que não são saudáveis.",
+      "4. Lembre-se mamãe, manter uma alimentação diversificada, com maior parte de origem vegetal, rica em alimentos naturais, além de fazer com que melhore a sua saúde e bem estar, melhora o do bebe também.",
+      "5. Mamãe está quase no finalzinho do primeiro trimestre UHUUUUUUUU! As chances de aborto espontâneo caem significativamente, portanto parabéns por todo o esforço. Logo em breve todo esse esforço se transformará no sorriso mais lindo da sua vida.",
+      "6. DICAS PARA AS GRAVIDINHAS: É recomendável tomar 20 minutos de sol, entre o início da manhã ou o finalzinho da tarde. Lembre-se de usar protetor solar no rosto e no corpo para evitar insolação e manchas.",
+      "7. Mamãe você está dormindo direito? Procure dormir 8 horas por dia, além de pequenas pausas durante o dia. Lembre-se que agora você está trabalhando dia e noite numa coisinha muito fofinha que em breve estará nos seus braços."
+    ]
+  },
+  {
+    "id": 12,
+    "message": [
+      "1. Dr.Matheus, posso tomar café diariamente? Mãezinha, sempre é bom lembrar que a cafeína pode interferir negativamente no sono e até na amamentação no futuro. Vá reduzindo as quantidades agora para que não haja efeito rebote no futuro, ou seja, dores de cabeça e cansaço quando estiver amamentando.",
+      "2. Apesar do seu bebe esta maiorzinho e seus órgãos genitais estarem em desenvolvimento, ainda não é possível determinar o sexo no exame de ultrassonografia, fica calma mamãe.",
+      "3. Mamãe o seu bebe no momento está utilizando seus novos músculos, fazendo alguns movimentos muito fofinhos, como abrir e fechar mãos e movimentos de sucção com a boca. Já imaginou que legal seria o ver chupando dedinho? (emoji de carinha com coração)",
+      "4. CURIOSIDADES: Mamãe você sabia que o seu bebe já excreta urina? Mas fica tranquila, esse material que vai para líquido amniótico não é prejudicial para ele.",
+      "5. UHUUUUUUU CHEGAMOS AO 2° TRIMESTRE. Foi difícil né mamãe? Mas conseguimos até aqui, ainda temos muito o que vivenciarmos. Lembre-se da sua consulta pré natal, é muito importante para o andamento saudável da gestação.",
+      "6. ALIMENTAÇÃO SAUDÁVEL: Ao consumir carnes vermelhas, retire a gordura que ver. Evite também o consumo excessivo desses alimentos, alterne sempre que possível com peixes, frutas e legumes.",
+      "7. E que tal renovar o guarda roupa para esse momento único ? Procure roupas frouxas e confortáveis, já que muito em breve sua barriguinha vai crescer. Outra coisa importante é o aumento da temperatura corporal, portanto procure sempre roupas mais relaxantes possíveis, mas sem deixar de ser linda e charmosa né?  Hehehe"
+    ]
+  },
+  {
+    "id": 13,
+    "message": [
+      "1. A barriguinha já está redondinha e é de gravidez mesmo. Ta caindo a ficha mamãe? Jaja estou ai fora com vocês.",
+      "2. Alguns exames são importantíssimos para a gestação, tais como o hemograma. Esse exame identifica problemas como a anemia. Mas não precisa pânico, esse problema é facilmente corrigido. Não fuja das consultas pré natais, elas são importantíssimas para o andamento da gestação.",
+      "3. Mamãe não paro mais quieto, me movimento direto. Os meus bracinhos já estão maiores, mas as pernas continuam ainda pequenas. Os reflexos estão ficando mais fortes e frequentes.",
+      "4. Mamãe, o meu pulmão está ainda em desenvolvimento.",
+      "5. Você sabe o que é Lanugo? Lanugo são os pelos bem ralos que fica no bebe para proteger sua pele. Eles permanecem no bebe até o nascimento, alguns bebês ficam até mais tempo com eles. Mas não precisa ficar preocupada, eles caem espontaneamente.",
+      "6. DICA DE ALIMENTAÇÃO SAUDÁVEL: Evite frituras, refrigerantes, sucos industrializados, macarrão instantâneo, doces, biscoitos recheados, chocolates  e outros alimentos que enchem os olhos, mas são de péssima qualidade nutricional. “Mamãe, estou vendo aqui de dentro você beliscando esses alimentos.”",
+      "7. Mamãe procure fazer atividades físicas leves e prazerosas. Exercite a sua respiração. Consulte o seu médico."
+    ]
+  },
+  {
+    "id": 14,
+    "message": [
+      "1. Mamãe, você quer ver eu fazendo careta? Alguns dos meus músculos estão funcionando. Já consigo fazer movimentos de pega com a mao. Também já consigo chupar o dedo, sou a coisa mais fofa, você tem que ver.",
+      "2. Mamãe não sou mais tão cabeçudinho hehe. O meu corpinho está crescendo mais que a cabeça agora. Meus braços e pernas continuam se desenvolvendo e logo logo eles já terão tamanhos mais proporcionais.",
+      "3. Quilinhos a mais mamãe? Essa barriguinha já esta ficando mais redondinha. Após a gestação você poderá recuperar a forma que deseja para o seu corpo. Lembre-se, no momento atual uma alimentação saudável é fundamental para o progresso da gestação. ",
+      "4. Mamãe fique atenta a sua saúde. As gestantes costumam ter mais facilidade para ter gripes, já que a própria gestação causa essa fragilidade. Portanto, esteja sempre atenta a isso. Cuide bem da sua saúde, consulte um médico sempre que precisar.",
+      "5. DICA DE ALIMENTAÇÃO SAUDÁVEL: Procure fazer as suas refeições em horários semelhantes, sempre num ambiente tranquilo e propício a isso. É interessante ter pessoas próximas a você. Isso gera uma satisfação melhor ao se alimentar, além de evitar os famosos beliscões nas guloseimas.",
+      "6. DICA IMPORTANTE: Dormir para o lado esquerdo pode melhorar sua circulação. Muitas gestantes falam que esse trimestre é o melhor, já que você consegue manter seu sono sem se incomodar com o desconforto gerado pela barriga grande. Durma bem suas 8 horas de sono, além de pequenos descansos durante o dia.",
+      "7. Caminhar é uma ótima forma de se exercitar, além de melhorar a circulação sanguínea e melhorar o seu bem-estar. É importante que os horários sejam no início da manhã ou finalzinho da tarde. Não pode esquecer do protetor solar e se hidrate bastante."
+    ]
+  },
+  {
+    "id": 15,
+    "message": [
+      "1. Mamãe, estamos progredindo na gestação, atualmente o risco de aborto espontâneo é mínimo. Você já sabe como vai me chamar se eu for um menino? Ou menina? Pense muito bem eim mamãe!",
+      "2. Procure se informar mais sobre os tipos de partos, maternidades e cursos para que você se sinta mais confortável em fazer a melhor escolha para este momento. Converse com o seu médico.",
+      "3. “Dr.Matheus, eu não aguento mais essa ansiedade, já posso saber qual o sexo do meu bebe?” Calma mãezinha, apesar de estar bem próximo, ainda não é possível verificar o sexo do seu bebe. É menino ou menina? Faça suas apostas.",
+      "4. Em algumas unidades básicas de saúde ocorrem grupos de gestantes. A finalidade desses grupos é compartilhar experiências com outras gestantes, além de receber o total suporte dos profissionais da saúde que conduzem esse tipo de atividade. Procure a unidade básica de saúde da sua casa. Disque saúde: 136.",
+      "5. ALGUNS SINAIS DE ALERTA: Pressão estiver alta Sentir dores fortes de cabeça Tiver dor ou ardor ao urinar Se caso perceber esses sintomas, consulte o seu médico o quanto antes.",
+      "6. COMPAREÇA ÀS CONSULTAS PRE NATAIS: Vale lembrar as gravidinhas que apesar de estar tudo bem com a gestação, é fundamental comparecer a todas as consultas. Lembre-se que é o momento que você tem para verificar tudo direitinho, além de tirar dúvidas. A alta das consultas pré-natais ocorre apenas quando o seu bebe nasce.",
+      "7. ATENÇÃO! Se você sofrer qualquer tipo de violência, denuncie! Ligue para 180 - Canal direto para o atendimento à mulher. A ligação é gratuita e pode ser feita de qualquer lugar do Brasil."
+    ]
+  },
+  {
+    "id": 16,
+    "message": [
+      "1. Você sabe o que é ultrassonografia morfológica? Entre a 16° e 20° semana de gestação é comum a realização desse exame para avaliar o desenvolvimento do feto, tais como avaliar a anatomia do feto, ou seja, a estrutura do corpinho do seu bebe. Sabe uma coisa interessante? É nesse exame que talvez seja possível ver o sexo do bebe!!! UHUUUU ",
+      "2. Mamãe agora minhas veias estão mais escondidinhas por conta que estou ficando mais gordinho. Apesar de muito pequeno, em breve serei a coisa mais fofinha do mundo.",
+      "3. E essa barriguinha super aparente? Mamãe agora você pode experimentar certas dores na região lombar. É importante que você tenha consciência que está carregando um peso maior agora. Procure exercícios leves que trabalhem nesta área. Ao dormir, tenha preferência pelo esquerdo, para facilitar o retorno sanguíneo que agora será dificultado por conta do tamanho da placenta.",
+      "4. Tire um tempo para dar uma relaxada mamãe. Um banho quente é uma ótima opção para relaxar essa gravidinha. Uma ótima noite de sono aliada com uma alimentação saudável traz um maior bem estar para você nesse período da gestação. Muito em breve o barrigão vai incomodar um pouco mais.",
+      "5. DESMISTIFICANDO: Sexo durante a gestação pode sim ser benéfico. Além de reduzir o estresse, a  prática sexual saudável pode trazer benefícios para a hora do parto. Converse com o seu parceiro.",
+      "6. DICA DE ALIMENTAÇÃO SAUDÁVEL: Evite o consumo de alimentos industrializados, como peixes e vegetais em conserva. Esses alimentos, por causa da adição de conservantes podem trazer prejuízos para sua saúde e a do feto. Se não puder evitar, consuma com moderação.",
+      "7. DICA DE ROLÊ: Planeje uma refeição saudável, cozinhando junto do parceiro ou amigos. Isso pode melhorar seu humor, quebra a rotina e ainda deixa sua alimentação bem mais saudável."
+    ]
+  },
+  {
+    "id": 17,
+    "message": [
+      "1. Mamãe algumas alterações na pele podem acontecer, tais como ressecar e algumas erupções. Na barriga, como a pele tá sendo esticada, é comum coceira na região da barriga e seios. Banhos quentes (não tão quentes) podem aliviar esses sintomas.",
+      "2. Você sabe as diferenças entre os tipos de parto? Conheça os benefícios e malefícios do parto normal. É importante conversar com o parceiro ou pessoas próximas sobre o assunto. Uma mamãe bem informada será mais difícil de ser pega de surpresa pelas particularidades desse momento único na vida de uma mulher.",
+      "3. SINAIS DE ALERTA: Caso haja algum tipo de sangramento ou perda de líquido pela vagina, é fundamental a ida ao hospital mais próximo para avaliação médica. Não falte às consultas pré natais, são esses momentos que avaliam o andamento da sua gestação.",
+      "4. Você conhece a vacina dTpa? Todos sabem o quanto é importante a imunização das gestantes. A dTpa protege você e o seu bebe contra o tétano, difteria e coqueluche. Deve ser feita entre a 27° e 36° semana de gestação.",
+      "5. As consultas pré natais são importantíssimas para o sucesso da gestação. É o momento em que você tem para tirar suas dúvidas e avaliar com esta sua saúde e do seu bebe. Elas devem acontecer mensalmente até a 28° semana; quinzenalmente entre 28° e 36° e semanalmente entre a 36° até a 41°. ",
+      "6. Mamãe, você pode experimentar a sensação de vertigem. Procure nesses momentos sentar e respirar fundo. Ficar com a barriga para cima e se levantar com mais calma pode prevenir esses momentos. Alimentos muito energéticos podem reduzir esses momentos, tais como a banana.",
+      "7. É MENINO OU MENINA? Já sabe como o seu bebe vai se chamar? Você já conversa com o seu bebe? Apesar desses sistemas ainda não serem totalmente formados, crie esse hábito. Muito em breve ele vai te escutar e amar ouvir sua voz."
+    ]
+  },
+  {
+    "id": 18,
+    "message": [
+      "1. Esta semana abre o 5° mês de gestação. Parece tanto tempo né? O seu bebe já sente e te escutaaaaaa. Cante músicas e converse com o seu bebe, ele ama ouvir sua voz e em breve vai responder a esses estímulos. Cante sua música favorita. Algumas mamães colocam música clássica. Seja criativa.",
+      "2. Mamãe, os exercícios físicos precisam dar uma maneirada. Dê preferência para exercícios bem leves, tais como caminhadas mais curtas no período do início da manhã ou finalzinho da tarde. Isso para evitar que haja um aumento considerável na sua temperatura corporal, causando hipotensão.",
+      "3. Mamãe o seu bebe está todo coberto por uma camada de um material chamado de vérnix. Ela servirá de proteção para a pele sensível do seu bebe. Não precisa ficar preocupada, pertinho do parto ela vai reduzindo e ao nascer ela desaparece com o tempo.",
+      "4. CURIOSIDADE SOBRE ALIMENTAÇÃO: Mamãe por incrível que pareça, a necessidade nutricional de uma gestante não diferencia muito das recomendações para a população em geral. Entretanto essa necessidade aumenta, porém, depende da idade gestacional.",
+      "5. Mamãe, você está muito cansadinha né? Deita com as pernas pra cima e pede para o papai dar uma ajudada nas tarefas. Além de uma massagem relaxante, um banho quente cairia muito bem hoje eim.",
+      "6. Mamãe aqui tá começando a ficar apertado. Alguém pode ligar a luz? Ta muito escuro. O seu bebe está crescendo a cada dia. Muito em breve, o útero começará a ser tracionado pelo tamanho do bebe. Você sentirá bem mais os movimentos dele.",
+      "7. Mamãe, fique atenta ao seu ganho de peso. É esperado o aumento de peso durante a gestação, mas sempre que possível faça o questionamento ao seu médico sobre como está sendo esse ganho. Importantíssimo comparecer a todas as consultas pré-natais nas quais verificamos como está a sua saúde e a do feto."
+    ]
+  },
+  {
+    "id": 19,
+    "message": [
+      "1. “Dr. Matheus onde o meu bebe está nesse momento?” O seu bebe está um pouco acima da linha do umbigo. Sempre que possível você e seu parceiro podem tentar interagir com o bebe. Cantar é uma atividade muito comum e traz um bem estar enorme para este momento.",
+      "2. Mamãe estou muito ansioso para conhecer você. Espero que esteja tudo bem com você, estou com você 24 horas por dia. Sempre que precisar, estou aqui para compartilhar tudo.",
+      "3. PROGRESSO: QUASE NA METADE. Mamãe, você está indo muito bem. Aguente firme, no fim dessa caminhada o seu prêmio será um bebe muito fofinho para encher de carinho. É importante continuar atenta a sua alimentação. Vá a todas as consultas pré-natais.",
+      "4. ALIMENTAÇÃO SAUDÁVEL: Durante os segundo e terceiro trimestres as necessidades proteicas estão aumentadas. O aumento das necessidades deve-se à importância da proteína para a formação da placenta, crescimento dos tecidos uterinos e desenvolvimento e crescimento do feto. Fontes proteicas a serem ingeridas diariamente: - Laticínios (leite, queijo, iogurte) - Utilize as leguminosas verdes e secas (feijão, grão de bico, favas, ervilhas, lentilhas)",
+      "5. Mamãe, você tá sentindo alguma parte do corpo inchada? Para prevenir o inchaço na gravidez é importante consumir alimentos ricos em magnésio. Evitar o consumo de sal também é um importante fator para redução de inchaços. Caso persista, consulte o seu médico.",
+      "6. EXERCÍCIOS FÍSICOS: Mamãe é interessante que os exercícios físicos que antes não causavam grande impacto sejam substituídos por atividades um pouco menos exigentes para o corpo. Uma ótima ideia é a prática da hidroginástica. Essa prática é recomendada para gestantes, pois reduz bastante o impacto nas articulações, já que por conta do empuxo o peso dentro da água é cerca de 50%.",
+      "7. Mamãe eu consigo perceber quando você está triste, animada e feliz. Sua alegria também me contagiou. Sou muito feliz por fazer parte disso tudo mamãe. Se ficar firme nessa jornada, em breve estarei nos seus braços."
+    ]
+  },
+  {
+    "id": 20,
+    "message": [
+      "1. Olá mamãe, hoje já estou bastante parecido com o que você verá no dia que eu nascer. A coisa mais fofinha da sua vida está chegando: EU.",
+      "2. Olá mamãe, um pré-natal bem acompanhado resultará em mais saúde para você e seu bebe. Isso quer dizer que é importante não faltar às consultas com o seu médico e seu enfermeiro, além de seguir suas recomendações gerais e mais específicas para o seu momento gestacional.",
+      "3. MOMENTO DUVIDA: Mamãe, você sabe como eu me alimento? Tudo que necessito para crescer forte e saudável é passado para mim através do cordão umbilical e da placenta.",
+      "4. Olá mamãe, você sabe o que é Chá de revelação? Essa festinha ficou super famosa por ser super divertida para todos que já estão ansiosos com o sexo do bebe. Além disso, não existe uma fórmula para fazê-la basta soltar a imaginação visando a diversão de todos, principalmente dos futuros papais. Já pensou em organizar sua festa da revelação?",
+      "5. Olá mamãe, minha medula óssea já produz minhas células do sangue. Antes esse trabalho era realizado por fígado e baço. O meu cabelinho já está crescendo. Agora estou bem mais inquieto.",
+      "6. SINAIS DE ALERTA: se você tiver dor ou ardor ao urinar deve procurar de imediato o serviço de saúde para avaliação de profissional competente.",
+      "7.DICA PARA RELAXAR: Procure fazer uma hortinha em casa. Cuidar de plantinhas pode trazer efeitos relaxantes além de melhorar o seu ambiente. Plantinhas são ótimas. Se você morar em apartamento, procure ideias de jardim vertical na internet, existem projetos super lindos e práticos."
+    ]
+  },
+  {
+    "id": 21,
+    "message": [
+      "1. Olá mamãe, dormir para o lado esquerdo pode melhorar a circulação de sangue. É importante mencionar que beber bastante água e se alimentar bem é fundamental para o andamento saudável da gestação. Elevar os pés durantes os descansos reduz os inchaços nos membros inferiores.",
+      "2. Olá mamãe, você sabia que existem cursos que auxiliam você durante o parto? Esses cursos são ótimos para as futuras mamães mais ansiosas e de primeira viagem. Além disso, é um ótimo programa para criar um vínculo maior entre o casal nesse momento tão importante na vida a dois. Consulte o seu médico ou procure na internet sobre esse assunto.",
+      "3. ALIMENTAÇÃO SAUDÁVEL: Olá mamãe, você sabe a importância do ferro? Ele é importante para o metabolismo energético e para o desenvolvimento do sistema nervoso fetal. O déficit deste mineral pode originar: risco de baixo peso do bebé ao nascimento, prematuridade e mortalidade perinatal e perturbações na formação e organização neuronal. A ingestão diária de 27 mg é ideal durante a gravidez, sendo por vezes necessária a toma de suplementos deste mineral. FONTES DE FERRO: Fígado grelhado, Pão integral, Feijão, Grão de soja cozido e Brócolis cozido.",
+      "4. AZIA E QUEIMAÇÃO: Olá mamãe, é importante evitar beber líquidos junto com a refeição principal e se deitar logo após terminar. Coma mais vezes com um quantidade reduzida em cada vez, isso permite uma melhor digestão e evita esse problema.",
+      "5. SINAL DE ALERTA: Olá mamãe, se ao acordar você notar muito inchaço nos pés, nas pernas ou no rosto, deve procurar o atendimento médico sem hesitar. Todo cuidado é pouco nesse momento.",
+      "6. OLHANDO PARA O FUTURO: Olá mamãe, você já procurou informações sobre a gestação? Tem alguma dúvida? Vamos lá, a amamentação é importante para o desenvolvimento saudável do bebe. Todo leite materno é nutritivo e protege contra várias doenças. Além disso, o ato de amamentar contribui para o fortalecimento da relação mae-bebe.",
+      "7. ATENÇÃO! Se você sofrer qualquer tipo de violência, denuncie! Ligue para 180 - Canal direto para o atendimento à mulher. A ligação é gratuita e pode ser feita de qualquer lugar do Brasil."
+    ]
+  },
+  {
+    "id": 22,
+    "message": [
+      "1. DICA DE MODA: Olá mamãe, desfrute da sua gestação. Invista em looks mais confortáveis, evitando principalmente roupas apertadas na cintura e sapatos de salto alto. Está na hora de destaque para essa barriga MARAVILHOSA.",
+      "2. SINAIS DE ALARME: Olá mamãe, em caso do aparecimento de febre, dor no corpo, dor de cabeça, manchinhas vermelhas na pele e vermelhidão nos olhos, visite uma unidade de saúde mais próxima da sua casa. Todo cuidado é pouco.",
+      "3. ALGUMAS SUGESTÕES SOBRE A SEGURANÇA DOS ALIMENTOS E PREPARAÇÃO: Olá mamãe, vamos às dicas: Lavar as mãos com água morna e sabonete: - Antes e depois de manusear alimentos - Depois de utilizar o banheiro - Depois de estar em contato com animais, lavar muito bem os legumes com água corrente, lavar todos os frutos, mesmo se pretender descascá-los.",
+      "4. DICA DE ALIMENTAÇÃO: Olá mamãe, para controlar o ganho de peso recomendamos que os lanchinhos sejam preferencialmente saudáveis e com pouquinho açúcar. Uma alimentação saudável é imprescindível para um andamento positivo da gestação.",
+      "5. Olá mamãe estou pesando em média 500g. Minha pele ainda é um pouco transparente, mas aos pouquinhos tá aparecendo uma gordurinha para preencher esses espaços. Logo logo estarei bem gordinho para vocês me encherem de carinhos.",
+      "6. DICAS IMPORTANTES: Fuja de ambientes onde se encontram fumantes, em qualquer fase da gestação, seja ela saudável ou não. Essa fumaça proveniente do cigarro com frequência pode afetar o seu bebe negativamente.",
+      "7. MÚSICA DURANTE A GESTAÇÃO: Um estudo realizado pela Universidade de Leicester mostrou que os bebês de um ano de idade reconhecem a música a que foram expostos três meses antes do nascimento. Coloque músicas calmas e relaxantes para você e seu bebe. Esses momentos são ótimos para um melhor aproveitamento da gestação, além da criação de vínculos que apenas a música pode trazer entre você, seu parceiro e o bebe."
+    ]
+  },
+  {
+    "id": 23,
+    "message": [
+      "1. DICA DE PRODUTOS IMPORTANTES: Olá mamãe, é interessante o uso de hidratantes para o corpo. Nessa fase as estrias se tornam mais evidentes e podem gerar algumas coceiras.",
+      "2. DICAS IMPORTANTES: Evite descolorantes, tinturas de cabelo, alisantes e onduladores que contêm amônia e outros componentes que podem fazer mal ao bebe.",
+      "3. GENGIVITE (SANGRAMENTO DA GENGIVA): ocorrem com mais facilidade durante a gestação, causados pela alteração dos níveis hormonais. Cuidado com a sua saúde bucal é fundamental para um andamento saudável da sua gestação. Consulte a unidade de saúde onde você faz o seu acompanhamento pré-natal.",
+      "4. DICA DE ALIMENTAÇÃO SAUDÁVEL: Olá mamãe, sua alimentação deverá ser uma alimentação saudável, ou seja, completa, equilibrada, variada e segura: - 5 a 6 refeições por dia, mais ou menos de 3 em 3 horas: pequeno-almoço, almoço e jantar e 2 a 3 pequenos lanches; - Privilegiar o consumo de hortícolas, iniciando as refeições com uma sopa de legumes;",
+      "5. QUANTA ÁGUA DEVO BEBER? Olá mamãe, muitas mulheres têm essa dúvida. Água é fundamental para o andamento da sua gestação. Em média, durante a gestação a mulher retém cerca de 6L de água. Uma boa referência a ser seguida é ingerir cerca de 2 Litros (em média  10 copos).",
+      "6. Dr.Matheus posso tomar refrigerantes? Olá mamãe, sabemos que às vezes um refri é tentador né? Mas cuidado com essas bebidas. Os refrigerantes devem ser evitados por conterem gás, assim podem gerar desconfortos abdominais. Além disso, podem gerar descontroles de peso e glicemia causando anormalidades na sua saúde.",
+      "7. Olá mamãe, durante essa semana eu estou ficando com a corzinha que terei ao nascer. Também estou ficando mais pesadinho. Nas próximas 4 semanas meu peso vai praticamente dobrar. Meus pulmões estão nos últimos detalhes para ficar prontinho. Mal posso esperar para me divertir com você."
+    ]
+  },
+  {
+    "id": 24,
+    "message": [
+      "1. Olá mamãe, minha memória primitiva está começando a se desenvolver. Conversem, cantem, coloquem músicas para mim, ao nascer eu irei lembrar delas todas. Amo quando vocês falam comigo.",
+      "2. EVITANDO A ANEMIA: Olá mamãe, para evitar a anemia, ou seja, a falta de ferro no sangue, é importante consumir diariamente alimentos ricos em ferro, tais como carnes, miúdos, feijão, lentilha, soja, folhas verde-escuras. Somando-se a isso, é importante fontes de vitamina C, como acerola, limão, laranja, caju, entre outros.",
+      "3. SINAIS DE ALERTA: Caso o bebe pare de se mexer por mais de 12 horas é importante comparecer a unidade de saúde mais próxima para examinar adequadamente a situação por um profissional de saúde.",
+      "4. DICA IMPORTANTE: Olá mamãe, é recomendável tomar 20 minutos de sol, durante o início da manhã ou o final de tarde, inclusive nas mamas. Lembre-se de usar um boné ou chapéu e BASTANTE protetor solar no rosto.",
+      "5. Dr. Matheus posso tomar um pouquinho de vinho por semana? Olá mamãe, até onde sabemos, não existe um consenso para o consumo de bebidas alcoólicas. Portanto, sugerimos que se evite esse consumo para que sua gestação continue nos padrões da normalidade.",
+      "6. DIREITOS DAS GESTANTES: Olá mamãe, você conhece a lei n°11.634 de 26/10/2007? Ela garante à gestante o direito de ser informada anteriormente, pela equipe do pré-natal, sobre qual a maternidade de referência para o seu parto e de visitar o serviço antes do parto.",
+      "7. DICA DE ALIMENTAÇÃO SAUDÁVEL: Olá mamãe, faça pelo menos três refeições (café da manhã, almoço e jantar) e duas refeições menores por dia, evitando ficar muitas horas sem comer. Entre as refeições beba água."
+    ]
+  },
+  {
+    "id": 25,
+    "message": [
+      "1. Olá mamãe, no final dessa semana meus pulmões estarão com condições minimamente adequadas para realizar as trocas gasosas. Além disso, boa parte da minha energia está sendo utilizada para desenvolver meu cérebro. Mamãe, você percebe que eu danço ao escutar algumas músicas? Sou um bebe elétrico.",
+      "2. Olá mamãe, o barrigão tá incomodando né? Procure uma posição confortável para fazer suas atividades cotidianas como trabalhar, dirigir ou simplesmente pegar algo no chão.",
+      "3. DIREITO DA GESTANTE: Olá mamãe, a lei federal 11.108/2005, que garante às parturientes o direito a acompanhante durante todo o período de trabalho de parto, no parto e no pós-parto, no SUS. Este acompanhante é escolhido por você, podendo ser homem ou mulher.",
+      "4. SINAL DE ALERTA: Olá mamãe, se você notar o aparecimento de corrimento escuro(marrom ou preto) deve procurar atendimento médico imediatamente.",
+      "5. DICA DE SEGURANÇA NA ALIMENTAÇÃO: Olá mamãe, vamos lá para algumas dicas: - Separar os alimentos crus dos alimentos prontos a consumir; - Os alimentos cozinhados nunca devem ser colocados em recipientes onde estiveram alimentos crus, sem que o recipiente seja bem lavado; - Quando os alimentos são reaquecidos, devem ser levados à fervura, ou então reaquecidos a altas temperaturas por algum tempo;",
+      "6. VARIZES NAS PERNAS: Olá mamãe, as varizes são causadas por problemas de circulação e/ou dilatação das veias. Não fique muito tempo sentada ou de pé. De tempos em tempos é aconselhado ficar com as pernas levantadas, recomendamos de 2 em 2 horas. O uso de meias elásticas, calçados e roupas confortáveis auxiliam nesse problema.",
+      "7. CURIOSIDADES: Olá mamãe, você sabia que o Guinness Book of World Records diz que o bebê mais pesado já nascido pesava 10.4 kg, de Anna Bates em 1879. A mãe, Anna, era bem alta, e o pai também. "
+    ]
+  },
+  {
+    "id": 26,
+    "message": [
+      "1. Olá mamãe, aqui está ficando apertado, quero me mexer. Por conta do espaço cada vez mais apertado, os chutes e movimentações são bem mais perceptivas por você. Todo o pequeno esqueleto está formado, precisando apenas fazer alguns ajustes nas articulações. Movimentos como sucção estão sendo repetidos pelo bebe para estar bem treinado quando nascer, já que precisará de se movimentar para mamar.",
+      "2. Olá mamãe, por conta do aumento do tamanho do útero, sua bexiga será pressionada. Esses empurrões na bexiga podem gerar desconfortos como a urgência urinária, ou seja, seu bebe fará você ir ao banheiro mais vezes para fazer xixi.",
+      "3. Olá mamãe, já caminhamos bastante até aqui né? Não precisa se preocupar tanto, estamos indo bem. Estamos quase no último trimestre. Em breve estarei nos seus braços.",
+      "4. SINAL DE ALERTA: Olá mamãe, qualquer sangramento, mesmo sem dor deve ser avaliado por um profissional de saúde qualificado, de preferência os que já acompanham sua gestação.",
+      "5. CURIOSIDADE DO DIA: EXAME DE URINA. Olá mamãe, às vezes os médicos pedem exames e não nos explicam o motivo de realizar tal procedimento. Esse exame identifica infecções do trato urinário. Eles são fundamentais para esse diagnóstico precoce e, por consequência, o tratamento é iniciado também precocemente.",
+      "6. CURIOSIDADE NA ALIMENTAÇÃO: MAGNÉSIO.Olá mamãe, O consumo adequado de magnésio durante a gestação está relacionado à diminuição do risco de pré-eclâmpsia, de nascimentos prematuros e de atraso no crescimento intrauterino. Fontes de magnésio: Flocos de aveia, flocos de trigo integral, espinafres, banana e abacate.",
+      "7. CUIDE DA SUA POSTURA: Olá mamãe, com o aumento de peso, o centro de gravidade de seu corpo é alterado. O corpo tenta compensar essa mudança projetando o corpo para trás, causando um desvio na coluna e provocando dores nas costas. Mantenha os ombros e quadris alinhados ao caminhar e, quando sentada, use uma almofada nas costas para manter a postura reta."
+    ]
+  },
+  {
+    "id": 27,
+    "message": [
+      "1. Olá mamãe, iniciamos o último trimestre da gestação. Sabemos do incômodo que a cada dia aumenta, mas estamos indo bem. Os meus olhos estão quase formados, porém a cor ainda é segredo hehe. O pulmão este quase pronto para funcionar, porém ainda seria preciso cuidados médicos. Gestação de 27 semanas tem chance de sobrevivência de 95%.",
+      "2. CURIOSIDADE SOBRE A PELE: Olá mamãe, em alguns casos os seus mamilos podem escurecer e que uma linha escura vertical apareça passando pelo umbigo e “dividindo” sua barriga ao meio. Não se preocupe, pois tudo isso vai desaparecer espontaneamente em algumas semanas ou meses depois do parto.",
+      "3. DIABETES GESTACIONAL: Olá mamãe, é provável que seu médico peça um teste de intolerância à glicose, para saber se houve o desenvolvimento dessa doença que afetam as gestantes. Ainda não se sabe ao certo, mas estudos mostram que o aparecimento da DG está relacionado a alterações hormonais e fisiológicas durante a gestação.",
+      "4. DICA DE NUTRIÇÃO SAUDÁVEL: CÁLCIO. Olá mamãe, vamos para mais uma dica de nutrição. O cálcio é importante para os ossos e dentes saudáveis tanto da mãe quanto do bebê. Fontes: Leites e derivados e alguns cereais.",
+      "5. SINAL DE ALERTA: Olá mamãe, se você tiver contrações fortes, dolorosas e frequentes você deve procurar imediatamente o serviço médico mais próximo.",
+      "6. DICA PARA O SEU CONFORTO: Olá mamãe, sabemos que está cada dia mais difícil, mas você está indo muito bem. Como uma recompensa para tudo isso, que tal um banho quente(não muito quente) para relaxar essas costas que podem estar doloridas de carregar esse bebe pesadinho? Logo logo isso tudo vai passar.",
+      "7. ATENÇÃO! Se você sofrer qualquer tipo de violência, denuncie! Ligue para 180 - Canal direto para o atendimento à mulher. A ligação é gratuita e pode ser feita de qualquer lugar do Brasil."
+    ]
+  },
+  {
+    "id": 28,
+    "message": [
+      "1. Olá mamãe, sabemos que o final da gestação é o momento em que tanto você quanto seu bebe estão se preparando para uma enorme mudança nas suas vidas. Já com o espaço reduzido, o bebe fica mais irritado e agitado, entretanto isso te dá uma sensação de mais cansaço. Aguente firme, em breve você terá seu bebezinho fofinho em seus braços.",
+      "2. DICA DE ATIVIDADE FÍSICA: IOGA Olá mamãe, a prática de exercícios físicos durante a gravidez traz diversos benefícios para a gestação, entre eles uma maior harmonia entre o seu corpo em constante mudança e o prazer de sentir o seu bebê. A ioga é uma excelente escolha para manter esse equilíbrio entre gestação saudável e harmonia entre corpo e mente. Consulte seu médico.",
+      "3. DICA DE COMODIDADE: Olá mamãe, você conhece assistentes virtuais? Esses aparelhos fazem várias atividades que podem te oferecer conforto como colocar músicas relaxantes, ligar/desligar luzes, aparelhos elétricos e colocar alarmes para determinados compromissos, tudo por comandos de voz. Isso te permite descansar mais tempo.",
+      "4. Olá mamãe, agora estou pesando cerca de 1kg. Minha cabeça está mais proporcional em relação ao meu corpinho. Estou cheio de energia mamãe, vamos brincar de chutar? Em breve estarei aí fora para brincarmos juntinhos.",
+      "5. DICA DE ALIMENTAÇÃO SAUDÁVEL: Olá mamãe, é interessante limitar o consumo de carne vermelha a 2 ou 3 vezes por semana; Consumir cerca de metade dos cereais, como pão, arroz e massa, sob a forma integral; Comer 3 a 4 porções de fruta por dia; Comer 3 porções de laticínios meio-gordos ou magros por dia;",
+      "6. DICA DE VESTUÁRIO: Olá mamãe, vamos lá para uma dica super prática e que pode te ajudar no dia a dia sem sair da moda. Invista em calçados que não precisam ser amarrados. Tentar pegar algum objeto no chão agora pode ser uma tarefa um tanto dolorosa e desconfortável.",
+      "7. CÃIBRAS E FORMIGAMENTOS NA PERNA: Olá mamãe, esses sintomas podem ocorrer durante a gestação. Modere as atividades físicas, tome muita água, suco de frutas e coma bananas, pois são ricas em potássio. Uma massagem nas pernas, estando elas elevadas, podem ser bem relaxantes."
+    ]
+  },
+  {
+    "id": 29,
+    "message": [
+      "1. Olá mamãe, meu olhinho já está pronto, consigo enxergar bem, mas por enquanto tá tudo escuro aqui dentro. Como meu cérebro está em constante crescimento, não vou crescer tanto nem engordar muito essa semana. Minhas células do sangue estão agora sendo formadas na minha medula óssea. Em breve estarei nos seus braços. ",
+      "2. SINAL DE ALERTA: Olá mamãe, preste atenção em qualquer ganho de peso repentino ou inchaço. Nesse momento, é importante que qualquer alteração importante deve ser informada para um médico.",
+      "3. DIREITOS TRABALHISTAS: Olá mamãe, você está trabalhando? Saiba que você tem que receber uma DECLARAÇÃO DE COMPARECIMENTO sempre que for às consultas de pré-natal ou fizer algum exame. Apresentando essa declaração, sua falta será justificada.",
+      "4. TIPAGEM SANGUÍNEA E FATOR Rh: Olá mamãe, é importante identificar o seu tipo sanguíneo. Se a gestante for Rh negativo e o pai do bebe ser Rh positivo, ela deve fazer um exame chamado de Coombs Indireto. Após o parto, caso o bebe seja Rh positivo, a mulher deverá tomar uma vacina em até 3 dias após o parto, para que não tenha problemas em gestações futuras. Essa vacina é cedida pelo SUS.",
+      "5. DOR NA COLUNA E DOR NA BARRIGA: Olá mamãe, esses incômodos são comuns na gestação, principalmente no último trimestre. Evite carregar peso e diminua o serviço doméstico, como lavar roupa e limpar o chão. Você pode também se espreguiçar para dar uma exercitada na coluna.",
+      "6. GESTAÇÕES DE RISCO: Olá mamãe, algumas mulheres podem apresentar complicações- São situações que necessitam de um acompanhamento especial e específico por profissionais qualificados e experientes nessas situações. Além disso, seu pré-natal será feito com profissionais de alto risco para evitar qualquer eventualidade com você e o bebe. ",
+      "7. DICAS DE ALIMENTAÇÃO SAUDÁVEL: Olá mamãe, preferir sempre os óleos vegetais, como azeite; Moderar o consumo de sal, utilizando pouco sal para cozinhar, não adicionando sal no prato e evitando produtos e alimentos com excesso de sal."
+    ]
+  },
+  {
+    "id": 31,
+    "message": [
+      "1. Olá mamãe, estou pensando quase 1,5 kg e estou medindo cerca de 40 cm. To pesadinho já viu? Continue firme nessa empreitada, você está indo muito bem.",
+      "2. Olá mamãe, o parto está se aproximando. Você já conseguiu organizar as roupas e as fraldas de que seu bebe vai precisar? Se tiver dificuldades, acompanhe canais no youtube ou peça orientações na unidade de saúde que você recebe tratamento para melhores dicas de apoio.",
+      "3. DICA IMPORTANTE: Olá mamãe, você já visitou a maternidade? É importante conhecer as instalações e como vão chegar lá no grande dia do parto.",
+      "4. DICAS ESSENCIAIS PARA UMA GESTAÇÃO SAUDÁVEL: - Beber água suficiente para satisfazer a sede. Cerca de 2,3 L pode ser uma referência; - Evitar as bebidas alcoólicas. - Aumento de peso adequado",
+      "5. RESPIRE FUNDO E RELAXE: Olá mamãe, como você está se sentindo hoje? Às vezes dar uma pausa na rotina é importante para você e seu bebe. Um banho quente, uma massagem relaxante pode diminuir um pouco o estresse causado no corpo.",
+      "6. PREPARANDO PARA NASCER: Olá mamãe, nos últimos 3 meses da gestação a maioria dos bebês se coloca de cabeça para baixo. Ele tem o próprio ritmo de dormir e acordar e começa a dar sinais de querer nascer, com o surgimento das primeiras contrações",
+      "7. SINAL DE ALERTA: Olá mamãe, se for possível faça a aferição de sua pressão com determinada frequência. Se a pressão estiver alta, procure o serviço de saúde."
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  },
+  {
+    "id": 7,
+    "message": [
+      "1. ",
+      "2. ",
+      "3. ",
+      "4. ",
+      "5. ",
+      "6. ",
+      "7. "
+    ]
+  }
+]

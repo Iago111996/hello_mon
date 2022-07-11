@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { AuthRoutes } from "./auth.routes";
 import { Load } from "../components/Load";
+import { AppRoutes } from "./app.tab.routes";
 
 export function Routes() {
   //   const { user, loadingAuth } = useAuth();
@@ -24,6 +25,8 @@ export function Routes() {
   return (
     <NavigationContainer>
       <AuthRoutes />
+
+      {/* <AppRoutes /> */}
     </NavigationContainer>
   );
 }
