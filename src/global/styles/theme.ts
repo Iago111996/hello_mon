@@ -4,7 +4,7 @@ export default {
     primary_light: "#F8D7D0",
 
     secondary: "#BFE9FF",
-    secondary_light: "#B7D7D9",
+    secondary_light: "#73E1E8",
 
     warning: "#FFE9CD",
 

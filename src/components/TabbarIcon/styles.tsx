@@ -1,25 +1,25 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 interface IconImageProps {
-    size: number;
+  focused: boolean;
 }
 
-export const Container = styled.View`
-    width: 60px;
-    height: 60px;
+export const Container = styled.View<IconImageProps>`
+  width: 60px;
+  height: 60px;
 
-    background: ${({theme }) => theme.colors.secondary_light};
+  background: ${({ theme, focused }) =>
+    focused ? theme.colors.secondary_light : theme.colors.secondary};
 
-    margin-bottom: 24px;
+  margin-bottom: 32px;
 
-    border-radius: 35px;
+  border-radius: 35px;
 
-    align-items: center;
-    justify-content: center;
-
+  align-items: center;
+  justify-content: center;
 `;
 
-export const IconImage = styled.Image<IconImageProps>`
-    width: 32px;
-    height: 32px;
+export const IconImage = styled.Image`
+  width: 32px;
+  height: 32px;
 `;

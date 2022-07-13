@@ -1,7 +1,15 @@
 import React from "react";
 import { ImageBackground } from "react-native";
 
-import { Container, MainScroll, Logo, Title } from "./styles";
+import {
+  Container,
+  MainScroll,
+  Title,
+  WrapperImgBaby,
+  ImgBaby,
+} from "./styles";
+
+import Messages from "../../global/utils/data/message.json";
 
 export function Home() {
   return (
@@ -10,17 +18,20 @@ export function Home() {
         style={{ width: "100%", height: "100%" }}
         source={require("../../assets/bg_baby.png")}
       >
-        <MainScroll>
-          <Title>
-            Whether this screen should be unmounted when navigating away from
-            it. Unmounting a screen resets any local state in the screen as well
-            as state of nested navigators in the screen. Defaults to false.
-            Normally, we don't recommend enabling this prop as users don't
-            expect their navigation history to be lost when switching tabs. If
-            you enable this prop, please consider if this will actually provide
-            a better experience for the user.
-          </Title>
+        <MainScroll
+          bounces={false}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={{ paddingVertical: 16, paddingHorizontal: 16 }}
+        >
+          {<Title key={Messages[0].id}>{Messages[0].message[0]}</Title>}
         </MainScroll>
+
+        <WrapperImgBaby>
+          <ImgBaby
+            style={{ width: 64, height: 132 }}
+            source={require("../../assets/img_baby.png")}
+          />
+        </WrapperImgBaby>
       </ImageBackground>
     </Container>
   );
