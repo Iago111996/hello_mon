@@ -12,6 +12,14 @@ import {
 import Messages from "../../global/utils/data/message.json";
 
 export function Home() {
+
+  function calcTimefromPregnancy() {
+    const DUM = new Date();
+    const today = new Date();
+
+    // const time = 
+  }
+
   return (
     <Container>
       <ImageBackground
