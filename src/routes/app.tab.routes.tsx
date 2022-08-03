@@ -6,6 +6,7 @@ import { Image, Platform } from "react-native";
 import theme from "../global/styles/theme";
 
 import { Home } from "../screens/Home";
+import { MomPage } from "../screens/Mom";
 import { TabbarIcon } from "../components/TabbarIcon";
 import { TabbarIconSecondary } from "../components/TabbarIconSecondary";
 
@@ -46,7 +47,7 @@ export function AppRoutes() {
       /> */}
       <Screen
         name="Mamãe"
-        component={Home}
+        component={MomPage}
         options={{
           tabBarIcon: ({ focused }) => (
             <TabbarIconSecondary

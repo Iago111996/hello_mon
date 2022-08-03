@@ -81,7 +81,7 @@ export function Register() {
                   placeholder="Digite a data"
                 />
 
-                <Input label="Último ultrassom:" placeholder="Digite a data" />
+                <Input label="Última ultrassom:" placeholder="Digite a data" />
 
                 <WrapperButton>
                   <Button
