@@ -11,7 +11,7 @@ export const Container = styled.View<IconImageProps>`
   background: ${({ theme, focused }) =>
     focused ? theme.colors.secondary_light : theme.colors.secondary};
 
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 
   border-radius: 35px;
 

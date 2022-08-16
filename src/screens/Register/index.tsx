@@ -23,11 +23,49 @@ import {
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { IconButton } from "../../components/IconButton";
+import { DateTimePicker } from "../../components/DateTimePicker";
 
 interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "../../../firebase-config";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
+
 export function Register() {
   const [step, setStep] = useState(1);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+  const [age, setAge] = useState(0);
+  const [ultrasoundDate, setUltrasoundDate] = useState(new Date());
+  const [menstruationDate, setMenstruationDate] = useState(new Date());
+
+  const [ultrasoundDateVisible, setUltrasoundDateVisibility] = useState(false);
+  const [menstruationDateVisible, setMenstruationDateVisibility] =
+    useState(false);
+
+  const showDatePickerUltrasound = () => {
+    setUltrasoundDateVisibility(true);
+  };
+
+  const hideDatePickerUltrasound = () => {
+    setUltrasoundDateVisibility(false);
+  };
+
+  const showDatePickerMenstruation = () => {
+    setMenstruationDateVisibility(true);
+  };
+
+  const hideDatePickerMenstruation = () => {
+    setMenstruationDateVisibility(false);
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
 
   const theme = useTheme();
 
@@ -36,6 +74,21 @@ export function Register() {
 
   function handleGoBack() {
     navigation.goBack();
+  }
+
+  async function handleCreateAccount() {
+    try {
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      console.log("conta criada!");
+      const user = userCredential.user;
+    } catch (error: any) {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+    }
   }
 
   return (
@@ -56,9 +109,41 @@ export function Register() {
 
             {step === 1 && (
               <WrapperForm>
-                <Input label="Email:" placeholder="Digite seu email" />
+                <Input
+                  label="Nome:"
+                  keyboardType="name-phone-pad"
+                  placeholder="Digite seu Nome"
+                  value={name}
+                  onChangeText={(b) => setName(b)}
+                />
 
-                <Input label="Senha:" placeholder="Digite sua senha" />
+                <Input
+                  label="Idade:"
+                  placeholder="Digite sua Idade"
+                  keyboardType="numeric"
+                  value={String(age)}
+                  onChangeText={(b) => setAge(Number(b))}
+                />
+
+                <DateTimePicker
+                  mode="date"
+                  title="Última menstruação:"
+                  intialDate={menstruationDate}
+                  getData={setMenstruationDate}
+                  showDatePicker={showDatePickerMenstruation}
+                  hideDatePicker={hideDatePickerMenstruation}
+                  isDatePickerVisible={menstruationDateVisible}
+                />
+
+                <DateTimePicker
+                  mode="date"
+                  title="Última ultrassom:"
+                  intialDate={ultrasoundDate}
+                  getData={setUltrasoundDate}
+                  showDatePicker={showDatePickerUltrasound}
+                  hideDatePicker={hideDatePickerUltrasound}
+                  isDatePickerVisible={ultrasoundDateVisible}
+                />
 
                 <WrapperButton>
                   <Button
@@ -72,21 +157,24 @@ export function Register() {
 
             {step === 2 && (
               <WrapperForm>
-                <Input label="Nome:" placeholder="Digite seu Nome" />
-
-                <Input label="Idade:" placeholder="Digite sua Idade" />
-
-                <Input
-                  label="Última menstruação:"
-                  placeholder="Digite a data"
-                />
-
-                <Input label="Última ultrassom:" placeholder="Digite a data" />
-
                 <WrapperButton>
+                  <Input
+                    label="Email:"
+                    placeholder="Digite seu email"
+                    value={email}
+                    onChangeText={(b) => setEmail(b)}
+                  />
+
+                  <Input
+                    label="Senha:"
+                    placeholder="Digite sua senha"
+                    value={password}
+                    onChangeText={(b) => setPassword(b)}
+                  />
+                  
                   <Button
                     title="Registrar"
-                    onPress={() => {}}
+                    onPress={() => handleCreateAccount()}
                     color={theme.colors.secondary}
                   />
                 </WrapperButton>

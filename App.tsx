@@ -3,6 +3,9 @@ import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from "styled-components";
 import { StatusBar } from "expo-status-bar";
 
+import 'moment/locale/pt-br';
+import moment from "moment";
+
 import {
   useFonts,
   Poppins_400Regular,

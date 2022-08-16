@@ -5,8 +5,8 @@ interface IconImageProps {
 }
 
 export const Container = styled.View<IconImageProps>`
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
 
     background: ${({theme, focused }) => focused ? theme.colors.secondary_light : theme.colors.secondary};
 

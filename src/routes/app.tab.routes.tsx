@@ -1,6 +1,5 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { MaterialIcons } from "@expo/vector-icons";
 
 import { Image, Platform } from "react-native";
 import theme from "../global/styles/theme";
@@ -22,7 +21,8 @@ export function AppRoutes() {
         tabBarLabelPosition: "below-icon",
         headerShown: false,
         tabBarStyle: {
-          height: 80,
+          height: 70,
+          paddingTop: 6,
           paddingBottom: 6,
           paddingVertical: Platform.OS === "ios" ? 20 : 0,
           backgroundColor: theme.colors.secondary,
@@ -31,6 +31,7 @@ export function AppRoutes() {
         tabBarLabelStyle: {
           fontFamily: theme.fonts.regular,
         },
+        tabBarHideOnKeyboard: true,
       }}
     >
       {/* <Screen
@@ -54,7 +55,7 @@ export function AppRoutes() {
               focused={focused}
               img={
                 <Image
-                  style={{ width: 22, height: 30 }}
+                  style={{ width: 15, height: 24 }}
                   source={require("../assets/tabbar_me_s.png")}
                 />
               }
@@ -97,7 +98,7 @@ export function AppRoutes() {
               focused={focused}
               img={
                 <Image
-                  style={{ width: 32, height: 22 }}
+                  style={{ width: 26, height: 16 }}
                   source={require("../assets/tabbar_health_s.png")}
                 />
               }

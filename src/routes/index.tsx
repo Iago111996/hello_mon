@@ -24,9 +24,8 @@ export function Routes() {
   }
   return (
     <NavigationContainer>
-      {/* <AuthRoutes /> */}
+      <AuthRoutes />
 
-      <AppRoutes />
     </NavigationContainer>
   );
 }

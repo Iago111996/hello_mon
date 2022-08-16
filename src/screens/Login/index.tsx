@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   KeyboardAvoidingView,
   TouchableWithoutFeedback,
@@ -23,15 +23,41 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { IconButton } from "../../components/IconButton";
 
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "../../../firebase-config";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
 interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
 export function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
   const navigation = useNavigation<RoutesProps>();
   const route = useRoute();
 
   function handleGoBack() {
     navigation.goBack();
   }
+
+  async function handleSignIn() {
+    try {
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      console.log("conta criada!");
+      const user = userCredential.user;
+    } catch (error: any) {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+    }
+  }
+  
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -46,9 +72,19 @@ export function Login() {
             <SettingTop source={require("../../assets/bg_setting_top.png")} />
 
             <WrapperForm>
-              <Input label="Email:" placeholder="Digite seu email" />
+              <Input
+                label="Email:"
+                placeholder="Digite seu email"
+                value={email}
+                onChangeText={(b) => setEmail(b)}
+              />
 
-              <Input label="Senha:" placeholder="Digite sua senha" />
+              <Input
+                label="Senha:"
+                placeholder="Digite sua senha"
+                value={password}
+                onChangeText={(b) => setPassword(b)}
+              />
 
               <WrapperButton>
                 <Button title="Logar" onPress={() => {}} />
