@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Dimensions, ImageBackground } from "react-native";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
+import { Alert, Dimensions, ImageBackground } from "react-native";
 
 import {
   Container,
@@ -10,31 +10,65 @@ import {
   WrapperInfos,
   TextDanger,
   Text,
-  WrapperText
+  WrapperText,
 } from "./styles";
 
-import Messages from "../../global/utils/data/message.json";
 import moment from "moment";
+import Messages from "../../global/utils/data/message.json";
+
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "../../../firebase-config";
+import { getFirestore, doc, onSnapshot } from "firebase/firestore";
+import { useAuth } from "../../hooks/useAuth";
+import { Load } from "../../components/Load";
 
 export function Home() {
   const [day, setDay] = useState(0);
   const [week, setWeek] = useState(0);
+  const [menstruationDate, setMenstruationDate] = useState(new Date());
+  const [loading, setLoading] = useState(false);
+
+  const { user } = useAuth();
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
 
   const WIDTH = Dimensions.get("screen").width;
-  const date = moment(new Date()).subtract(68, "days");
-  const days = moment().diff(date, "days");
 
-  function calcTimefromPregnancy() {
+  async function getInfoUser() {
+    setLoading(true);
+    onSnapshot(doc(db, "users", user!.uid), (doc) => {
+      if (doc.exists()) {
+        const data = doc.data();
+        setMenstruationDate(new Date(data.menstruationDate.toDate()));
+        setLoading(false);
+      } else {
+        Alert.alert("Algo deu errado!");
+        setLoading(false);
+      }
+    });
+  }
+
+  const days = useMemo(() => {
+    const days = moment(new Date()).diff(menstruationDate, "days");
+
+    return days;
+  }, [menstruationDate]);
+
+  const calcTimefromPregnancy = useMemo(() => {
     const currentWeek = days / 7;
     const currentDay = days % 7;
 
     setWeek(Math.ceil(currentWeek));
     setDay(currentDay == 0 ? 6 : currentDay - 1);
-  }
+  }, [days]);
 
   function formateDate() {
-    const months = moment().diff(date, "months");
-    const days = months > 0 ? moment().diff(date, "days") - (31 * months) : moment().diff(date, "days");
+    const months = moment().diff(menstruationDate, "months");
+    const days =
+      months > 0
+        ? moment().diff(menstruationDate, "days") - 31 * months
+        : moment().diff(menstruationDate, "days");
 
     const wordMonth = months > 1 ? `Meses` : `Mês`;
     const wordDay = days > 1 ? `Dias` : `Dia`;
@@ -52,7 +86,9 @@ export function Home() {
     }
   }
 
-  useEffect(() => { calcTimefromPregnancy() }, []);
+  useEffect(() => {
+    getInfoUser();
+  }, []);
 
   return (
     <Container>
@@ -65,7 +101,11 @@ export function Home() {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingVertical: 16, paddingHorizontal: 16 }}
         >
-          <Title key={Messages[0].id}>{Messages[week].message[day]} {day} {week}</Title>
+          {loading ? (
+            <Load />
+          ) : (
+            <Title key={Messages[0].id}>{Messages[week].message[day]}</Title>
+          )}
         </MainScroll>
 
         <WrapperImgBaby>
@@ -80,14 +120,22 @@ export function Home() {
             style={{ width: WIDTH, height: 180 }}
             source={require("../../assets/img_baby_bottom.png")}
           >
-            <WrapperText>
-              <TextDanger>{formateDate()}</TextDanger>
+            {loading ? (
+              <Load />
+            ) : (
+              <WrapperText>
+                <TextDanger>{formateDate()}</TextDanger>
 
-              <Text>Seu bebê vai te encontrar em <TextDanger>{280 - days} {days > 1 ? `Dias` : `Dia`}</TextDanger></Text>
-            </WrapperText>
+                <Text>
+                  Seu bebê vai te encontrar em{" "}
+                  <TextDanger>
+                    {280 - days} {days > 1 ? `Dias` : `Dia`}
+                  </TextDanger>
+                </Text>
+              </WrapperText>
+            )}
           </ImageBackground>
         </WrapperInfos>
-
       </ImageBackground>
     </Container>
   );

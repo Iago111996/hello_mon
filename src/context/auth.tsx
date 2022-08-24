@@ -4,11 +4,13 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "../../firebase-config";
+import { getFirestore, doc, setDoc  } from "firebase/firestore";
 import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
+import { Alert } from "react-native";
 
 interface AuthContextProps {
   user: User | undefined;
@@ -16,6 +18,12 @@ interface AuthContextProps {
   signIn(email: string, password: string): Promise<void>;
   signOut(): void;
   createAccount(email: string, password: string): Promise<void>;
+  supplementaryData(
+    name: string,
+    age: number,
+    ultrasoundDate: Date,
+    menstruationDate: Date
+  ):  Promise<void>;
 }
 
 const AuthContext = createContext({} as AuthContextProps);
@@ -25,13 +33,16 @@ interface AuthProviderProps {
 }
 
 interface User {
+  uid: string;
   email: string | null;
 }
 
 function AuthProvider({ children }: AuthProviderProps) {
   const [user, setUser] = useState<User>();
+  const [userAccount, setUserAccount] = useState<User>();
 
   const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
   const auth = getAuth(app);
 
   async function createAccount(email: string, password: string) {
@@ -41,14 +52,39 @@ function AuthProvider({ children }: AuthProviderProps) {
         email,
         password
       );
-      console.log("conta criada!");
       const user = userCredential.user;
 
-      setUser(user);
+      setUserAccount(user);
       await AsyncStorage.setItem("@hello_mom:user", JSON.stringify(user));
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
+
+      Alert.alert(errorMessage);
+    }
+  }
+
+  async function supplementaryData(
+    name: string,
+    age: number,
+    ultrasoundDate: Date,
+    menstruationDate: Date
+  ) {
+    try {
+      const obj = {
+        name,
+        age,
+        ultrasoundDate,
+        menstruationDate,
+      };
+
+      await setDoc(doc(db, "users", userAccount!.uid), obj);
+      setUser(userAccount);
+      
+    } catch (error: any) {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      Alert.alert(errorMessage);
     }
   }
 
@@ -59,9 +95,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         email,
         password
       );
-      console.log("logou!");
       const user = userCredential.user;
-      console.log(user);
 
       setUser(user);
       await AsyncStorage.setItem("@hello_mom:user", JSON.stringify(user));
@@ -69,7 +103,7 @@ function AuthProvider({ children }: AuthProviderProps) {
       const errorCode = error.code;
       const errorMessage = error.message;
 
-      console.log(errorMessage);
+      Alert.alert(errorMessage);
     }
   }
 
@@ -97,6 +131,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         signIn,
         signOut,
         createAccount,
+        supplementaryData
       }}
     >
       {children}

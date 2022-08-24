@@ -1,9 +1,9 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.View`
   flex: 1;
 
-  background: ${({ theme}) => theme.colors.shape};
+  background: ${({ theme }) => theme.colors.shape};
 `;
 
 export const Img = styled.Image`
@@ -21,6 +21,8 @@ export const ImgAvatar = styled.Image`
 export const MainScroll = styled.ScrollView`
   flex: 1;
   height: 100%;
+
+  background: ${({ theme }) => theme.colors.shape};
 `;
 
 export const WrapperImage = styled.View`
@@ -57,8 +59,17 @@ export const WrapperForm = styled.View`
   padding: 0 16px;
 `;
 
+export const WrapperLoad = styled.View`
+  width: 100%;
+
+  margin-top: 40px;
+
+  align-items: center;
+  justify-content: center;
+`;
+
 export const WrapperButton = styled.View`
-  margin-top: 32px;
+  margin-top: 24px;
 `;
 
 export const WrapperIconButton = styled.View`

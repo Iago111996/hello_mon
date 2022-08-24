@@ -4,6 +4,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
   Platform,
+  Alert,
 } from "react-native";
 
 import { useNavigation, useRoute } from "@react-navigation/native";
@@ -45,6 +46,15 @@ export function Login() {
 
   async function handleSignIn() {
     try {
+      if(email == "") {
+        Alert.alert("O campo Email é obrigatório.");
+        return
+      }
+      if(password == "") {
+        Alert.alert("O campo Senha é obrigatório.");
+        return
+      }
+
       await signIn(email, password);
     } catch (error: any) {
       const errorCode = error.code;
@@ -69,6 +79,8 @@ export function Login() {
               <Input
                 label="Email:"
                 placeholder="Digite seu email"
+                keyboardType="email-address"
+                autoCorrect={false}
                 value={email}
                 onChangeText={(b) => setEmail(b)}
               />
@@ -76,6 +88,8 @@ export function Login() {
               <Input
                 label="Senha:"
                 placeholder="Digite sua senha"
+                secureTextEntry={true}
+                autoCorrect={false}
                 value={password}
                 onChangeText={(b) => setPassword(b)}
               />

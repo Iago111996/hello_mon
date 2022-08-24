@@ -15,7 +15,7 @@ const { Navigator, Screen } = createBottomTabNavigator();
 export function AppRoutes() {
   return (
     <Navigator
-      initialRouteName="Home"
+      initialRouteName="Meu bebê"
       screenOptions={{
         tabBarActiveTintColor: theme.colors.title,
         tabBarInactiveTintColor: theme.colors.text,
@@ -65,7 +65,7 @@ export function AppRoutes() {
         }}
       />
       <Screen
-        name="Meu bebê "
+        name="Meu bebê"
         component={Home}
         options={{
           tabBarIcon: ({ focused }) => <TabbarIcon focused={focused} />,

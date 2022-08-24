@@ -39,6 +39,7 @@ export function DateTimePicker({
 
         <DateTimePickerModal
           mode={mode}
+          date={intialDate}
           onConfirm={handleConfirm}
           onCancel={hideDatePicker}
           isVisible={isDatePickerVisible}

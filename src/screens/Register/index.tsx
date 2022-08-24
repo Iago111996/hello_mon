@@ -5,6 +5,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
   Platform,
+  Alert,
 } from "react-native";
 
 import { useNavigation, useRoute } from "@react-navigation/native";
@@ -27,13 +28,6 @@ import { DateTimePicker } from "../../components/DateTimePicker";
 
 interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
-import { initializeApp } from "firebase/app";
-import { firebaseConfig } from "../../../firebase-config";
-import {
-  getAuth,
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-} from "firebase/auth";
 import { useAuth } from "../../hooks/useAuth";
 
 export function Register() {
@@ -70,7 +64,7 @@ export function Register() {
   const navigation = useNavigation<RoutesProps>();
   const route = useRoute();
 
-  const { createAccount } = useAuth();
+  const { createAccount, supplementaryData } = useAuth();
 
   function handleGoBack() {
     navigation.goBack();
@@ -78,7 +72,26 @@ export function Register() {
 
   async function handleCreateAccount() {
     try {
-     await createAccount(email, password);
+      if (email == "") {
+        Alert.alert("O campo Email é obrigatório.");
+        return;
+      }
+      if (password == "") {
+        Alert.alert("O campo Senha é obrigatório.");
+        return;
+      }
+
+      await createAccount(email, password);
+      setStep(2);
+    } catch (error: any) {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+    }
+  }
+
+  async function handleSupplementaryData() {
+    try {
+      await supplementaryData(name, age, ultrasoundDate, menstruationDate);
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
@@ -104,48 +117,28 @@ export function Register() {
             {step === 1 && (
               <WrapperForm>
                 <Input
-                  label="Nome:"
-                  keyboardType="name-phone-pad"
-                  placeholder="Digite seu Nome"
-                  value={name}
-                  onChangeText={(b) => setName(b)}
+                  label="Email:"
+                  placeholder="Digite seu email"
+                  keyboardType="email-address"
+                  autoCorrect={false}
+                  value={email}
+                  onChangeText={(b) => setEmail(b)}
                 />
 
                 <Input
-                  label="Idade:"
-                  placeholder="Digite sua Idade"
-                  keyboardType="numeric"
-                  value={String(age)}
-                  onChangeText={(b) => setAge(Number(b))}
+                  label="Senha:"
+                  placeholder="Digite sua senha"
+                  secureTextEntry={true}
+                  autoCorrect={false}
+                  value={password}
+                  onChangeText={(b) => setPassword(b)}
                 />
 
-                <DateTimePicker
-                  mode="date"
-                  title="Última menstruação:"
-                  intialDate={menstruationDate}
-                  getData={setMenstruationDate}
-                  showDatePicker={showDatePickerMenstruation}
-                  hideDatePicker={hideDatePickerMenstruation}
-                  isDatePickerVisible={menstruationDateVisible}
+                <Button
+                  title="Salvar e continuar"
+                  onPress={() => handleCreateAccount()}
+                  color={theme.colors.secondary}
                 />
-
-                <DateTimePicker
-                  mode="date"
-                  title="Última ultrassom:"
-                  intialDate={ultrasoundDate}
-                  getData={setUltrasoundDate}
-                  showDatePicker={showDatePickerUltrasound}
-                  hideDatePicker={hideDatePickerUltrasound}
-                  isDatePickerVisible={ultrasoundDateVisible}
-                />
-
-                <WrapperButton>
-                  <Button
-                    title="Salvar e continuar"
-                    onPress={() => setStep(2)}
-                    color={theme.colors.secondary}
-                  />
-                </WrapperButton>
               </WrapperForm>
             )}
 
@@ -153,24 +146,48 @@ export function Register() {
               <WrapperForm>
                 <WrapperButton>
                   <Input
-                    label="Email:"
-                    placeholder="Digite seu email"
-                    value={email}
-                    onChangeText={(b) => setEmail(b)}
+                    label="Nome:"
+                    keyboardType="name-phone-pad"
+                    placeholder="Digite seu Nome"
+                    value={name}
+                    onChangeText={(b) => setName(b)}
                   />
 
                   <Input
-                    label="Senha:"
-                    placeholder="Digite sua senha"
-                    value={password}
-                    onChangeText={(b) => setPassword(b)}
+                    label="Idade:"
+                    placeholder="Digite sua Idade"
+                    keyboardType="numeric"
+                    value={String(age)}
+                    onChangeText={(b) => setAge(Number(b))}
                   />
-                  
-                  <Button
-                    title="Registrar"
-                    onPress={() => handleCreateAccount()}
-                    color={theme.colors.secondary}
+
+                  <DateTimePicker
+                    mode="date"
+                    title="Última menstruação:"
+                    intialDate={menstruationDate}
+                    getData={setMenstruationDate}
+                    showDatePicker={showDatePickerMenstruation}
+                    hideDatePicker={hideDatePickerMenstruation}
+                    isDatePickerVisible={menstruationDateVisible}
                   />
+
+                  <DateTimePicker
+                    mode="date"
+                    title="Última ultrassom:"
+                    intialDate={ultrasoundDate}
+                    getData={setUltrasoundDate}
+                    showDatePicker={showDatePickerUltrasound}
+                    hideDatePicker={hideDatePickerUltrasound}
+                    isDatePickerVisible={ultrasoundDateVisible}
+                  />
+
+                  <WrapperButton>
+                    <Button
+                      title="Salvar"
+                      onPress={() => handleSupplementaryData()}
+                      color={theme.colors.secondary}
+                    />
+                  </WrapperButton>
                 </WrapperButton>
               </WrapperForm>
             )}
