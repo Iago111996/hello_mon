@@ -26,6 +26,7 @@ import { IconButton } from "../../components/IconButton";
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "../../../firebase-config";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { useAuth } from "../../hooks/useAuth";
 
 interface RoutesProps extends StackNavigationProp<RootStackParamList> {}
 
@@ -33,11 +34,10 @@ export function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
-
   const navigation = useNavigation<RoutesProps>();
   const route = useRoute();
+
+  const { signIn } = useAuth();
 
   function handleGoBack() {
     navigation.goBack();
@@ -45,19 +45,13 @@ export function Login() {
 
   async function handleSignIn() {
     try {
-      const userCredential = await signInWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      console.log("conta criada!");
-      const user = userCredential.user;
+      await signIn(email, password);
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
     }
   }
-  
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -87,7 +81,7 @@ export function Login() {
               />
 
               <WrapperButton>
-                <Button title="Logar" onPress={() => {}} />
+                <Button title="Logar" onPress={() => handleSignIn()} />
               </WrapperButton>
             </WrapperForm>
           </Container>

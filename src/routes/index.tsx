@@ -3,29 +3,19 @@ import { View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 
 import { AuthRoutes } from "./auth.routes";
-import { Load } from "../components/Load";
 import { AppRoutes } from "./app.tab.routes";
 
-export function Routes() {
-  //   const { user, loadingAuth } = useAuth();
+import { useAuth } from "../hooks/useAuth";
+import { AuthProvider } from "../context/auth";
 
-  if (false) {
-    return (
-      <View
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Load />
-      </View>
-    );
-  }
+import { Load } from "../components/Load";
+
+export function Routes() {
+  const { user, loadingAuth } = useAuth();
+
   return (
     <NavigationContainer>
-      <AuthRoutes />
-
+        {loadingAuth ? <AppRoutes /> : <AuthRoutes />}
     </NavigationContainer>
   );
 }

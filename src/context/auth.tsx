@@ -1,4 +1,6 @@
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useLayoutEffect, useState } from "react";
+
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "../../firebase-config";
@@ -9,9 +11,10 @@ import {
 } from "firebase/auth";
 
 interface AuthContextProps {
-  user: any;
+  user: User | undefined;
   loadingAuth: boolean;
   signIn(email: string, password: string): Promise<void>;
+  signOut(): void;
   createAccount(email: string, password: string): Promise<void>;
 }
 
@@ -22,7 +25,7 @@ interface AuthProviderProps {
 }
 
 interface User {
-  email: string;
+  email: string | null;
 }
 
 function AuthProvider({ children }: AuthProviderProps) {
@@ -41,7 +44,8 @@ function AuthProvider({ children }: AuthProviderProps) {
       console.log("conta criada!");
       const user = userCredential.user;
 
-      
+      setUser(user);
+      await AsyncStorage.setItem("@hello_mom:user", JSON.stringify(user));
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
@@ -57,11 +61,33 @@ function AuthProvider({ children }: AuthProviderProps) {
       );
       console.log("logou!");
       const user = userCredential.user;
+      console.log(user);
+
+      setUser(user);
+      await AsyncStorage.setItem("@hello_mom:user", JSON.stringify(user));
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
+
+      console.log(errorMessage);
     }
   }
+
+  async function signOut() {
+    await AsyncStorage.removeItem("@hello_mom:user");
+    setUser(undefined);
+  }
+
+  async function reloadAuth() {
+    const userItem = await AsyncStorage.getItem("@hello_mom:user");
+    const user = userItem != null ? JSON.parse(userItem) : undefined;
+
+    setUser(user);
+  }
+
+  useLayoutEffect(() => {
+    reloadAuth();
+  }, []);
 
   return (
     <AuthContext.Provider
@@ -69,6 +95,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         user,
         loadingAuth: !!user,
         signIn,
+        signOut,
         createAccount,
       }}
     >

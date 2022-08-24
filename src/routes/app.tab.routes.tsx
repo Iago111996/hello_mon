@@ -6,6 +6,7 @@ import theme from "../global/styles/theme";
 
 import { Home } from "../screens/Home";
 import { MomPage } from "../screens/Mom";
+import { SettingsPage } from "../screens/Settings";
 import { TabbarIcon } from "../components/TabbarIcon";
 import { TabbarIconSecondary } from "../components/TabbarIconSecondary";
 
@@ -14,7 +15,7 @@ const { Navigator, Screen } = createBottomTabNavigator();
 export function AppRoutes() {
   return (
     <Navigator
-      // initialRouteName="Home"
+      initialRouteName="Home"
       screenOptions={{
         tabBarActiveTintColor: theme.colors.title,
         tabBarInactiveTintColor: theme.colors.text,
@@ -91,7 +92,7 @@ export function AppRoutes() {
       /> */}
       <Screen
         name="Configurações"
-        component={Home}
+        component={SettingsPage}
         options={{
           tabBarIcon: ({ focused }) => (
             <TabbarIconSecondary

@@ -11,7 +11,7 @@ export type RootStackParamList = {
   Initialscreen: undefined;
 };
 
-const { Navigator, Screen }= createStackNavigator();
+const { Navigator, Screen } = createStackNavigator();
 
 export function AuthRoutes() {
   return (

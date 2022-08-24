@@ -34,6 +34,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
+import { useAuth } from "../../hooks/useAuth";
 
 export function Register() {
   const [step, setStep] = useState(1);
@@ -64,13 +65,12 @@ export function Register() {
     setMenstruationDateVisibility(false);
   };
 
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
-
   const theme = useTheme();
 
   const navigation = useNavigation<RoutesProps>();
   const route = useRoute();
+
+  const { createAccount } = useAuth();
 
   function handleGoBack() {
     navigation.goBack();
@@ -78,13 +78,7 @@ export function Register() {
 
   async function handleCreateAccount() {
     try {
-      const userCredential = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      console.log("conta criada!");
-      const user = userCredential.user;
+     await createAccount(email, password);
     } catch (error: any) {
       const errorCode = error.code;
       const errorMessage = error.message;
